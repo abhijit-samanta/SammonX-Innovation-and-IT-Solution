@@ -22,7 +22,7 @@ import Amit from "../assets/testonomial/Amit_mahapatra.jpg"
 import Apurba from "../assets/testonomial/Apurba_samanta.jpg"
 import Sathi from "../assets/testonomial/Sathi_parai.jpg"
 import Sujit from "../assets/testonomial/Sujit_bera.jpg"
-import Subhajit from "../assets/testonomial/Subhajit.jpg"
+import Subhajit from "../assets/testonomial/subhajit.jpg"
 
 const Home = () => {
   const [isContactModalOpen, setIsContactModalOpen] = useState(false);
