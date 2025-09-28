@@ -20,7 +20,7 @@ import ContactModal from '../components/ui/ContactModal';
 import sangita from "../assets/testonomial/Sangita_mondal.jpg"
 import Amit from "../assets/testonomial/Amit_mahapatra.jpg"
 import Apurba from "../assets/testonomial/Apurba_samanta.jpg"
-import Sathi from "../assets/testonomial/Sathi_parai.jpg"
+import Sathi from "../assets/testonomial/Sathi_parai1.jpg"
 import Sujit from "../assets/testonomial/Sujit_bera.jpg"
 import Subhajit from "../assets/testonomial/subhajit.jpg"
 
@@ -120,7 +120,7 @@ const Home = () => {
       gradientTo: "to-orange-400"
     },
     {
-      name: "Sathi Parai",
+      name: "Sathi Adhikary",
       // position: "VP Operations, DataFlow",
       image: Sathi,
       content: "Their AI and machine learning solutions transformed our data processing. We now predict market trends with 95% accuracy, improving decisions and boosting profitability.",

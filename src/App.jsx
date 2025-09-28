@@ -1,7 +1,5 @@
 import React, { lazy } from 'react';
-import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router';
-import Navbar from './components/ui/Navbar';
-import Footer from './components/ui/Footer';
+import {  Routes, Route, BrowserRouter, HashRouter } from 'react-router';
 import Home from './page/Home';
 
 import WhatsAppButton from './components/ui/WhatsAppButton';
@@ -21,7 +19,7 @@ function App() {
         
         {/* Main Content */}
         <main className="pt-16"> {/* Add top padding to account for fixed navbar */}
-          <BrowserRouter>
+          <HashRouter>
             <Routes>
               <Route path="/" element={<Layout />} >
                 <Route index element={<Home />} />
@@ -32,7 +30,7 @@ function App() {
                 <Route path="process" element={<Process />} />
               </Route>
             </Routes>
-          </BrowserRouter>
+          </HashRouter>
         </main>
         
        

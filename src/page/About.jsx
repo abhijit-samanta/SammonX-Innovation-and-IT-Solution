@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 import abhijit from "../assets/team/abhijit.png"
 import sujon from "../assets/team/sujon1.png"
 import roni from "../assets/team/roni.jpeg"
-import aditi from "../assets/team/aditi.jpg"
+import aditi from "../assets/team/aditi.png"
 
 import {
   ArrowRight,
@@ -105,7 +105,7 @@ const About = () => {
       }
     },
     {
-      name: "Aditi Dinda",
+      name: "Aditi Roy",
       position: "Digital Marketing Head",
       image: aditi,
       bio: "Digital Marketing Specialist with 5 years' experience in SEO, social media, content strategy, and PPC campaigns.",
