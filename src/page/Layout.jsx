@@ -1,10 +1,20 @@
 
-import { Outlet } from 'react-router-dom'
+import { Outlet } from 'react-router'
+import Navbar from '../components/ui/Navbar'
+import Footer from '../components/ui/Footer'
+import WhatsAppButton from '../components/ui/WhatsAppButton'
 
 const Layout = () => {
   return (
     <div>
-      <Outlet />
+        {/* Navigation */}
+        <Navbar />
+        <Outlet />
+       {/* Footer */}
+        <Footer />
+        
+        {/* WhatsApp Floating Button */}
+        <WhatsAppButton />
     </div>
   )
 }

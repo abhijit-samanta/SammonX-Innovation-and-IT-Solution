@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 import abhijit from "../assets/team/abhijit.png"
 import sujon from "../assets/team/sujon1.png"
 import roni from "../assets/team/roni.jpeg"
