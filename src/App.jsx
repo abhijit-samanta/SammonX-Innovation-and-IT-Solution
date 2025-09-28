@@ -1,15 +1,17 @@
-import React from 'react';
+import React, { lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/ui/Navbar';
 import Footer from './components/ui/Footer';
 import Home from './page/Home';
-import About from './page/About';
-import Services from './page/Services';
-import Career from './page/Career';
-import Works from './page/Works';
-import Process from './page/Process';
+
 import WhatsAppButton from './components/ui/WhatsAppButton';
 import Layout from './page/Layout';
+
+const About = lazy(() => import("./page/About"))
+const Services = lazy(() => import("./page/Services"))
+const Career = lazy(() => import("./page/Career"))
+const Works = lazy(() => import("./page/Works"))
+const Process = lazy(() => import("./page/Process"))
 
 function App() {
   return (
