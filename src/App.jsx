@@ -9,6 +9,7 @@ import Career from './page/Career';
 import Works from './page/Works';
 import Process from './page/Process';
 import WhatsAppButton from './components/ui/WhatsAppButton';
+import Layout from './page/Layout';
 
 function App() {
   return (
@@ -20,12 +21,14 @@ function App() {
         {/* Main Content */}
         <main className="pt-16"> {/* Add top padding to account for fixed navbar */}
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/career" element={<Career />} />
-            <Route path="/works" element={<Works />} />
-            <Route path="/process" element={<Process />} />
+            <Route path="/" element={<Layout />} >
+              <Route index element={<Home />} />
+              <Route path="about" element={<About />} />
+              <Route path="services" element={<Services />} />
+              <Route path="career" element={<Career />} />
+              <Route path="works" element={<Works />} />
+              <Route path="process" element={<Process />} />
+            </Route>
           </Routes>
         </main>
         
